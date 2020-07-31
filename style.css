@@ -1,0 +1,135 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Ranchers', cursive;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 0.5%;
+    background-image: url(https://i.pinimg.com/originals/d2/a7/bb/d2a7bb8652fa3921b2a64e179c935984.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 8px black;
+}
+
+.header {
+    display: flex;
+    height: 25vh;
+    background-image: linear-gradient(to bottom, #d92026ab, #d92026ab), url(https://www.publicdomainpictures.net/pictures/330000/velka/racing-flags-background-checkered-flag-themes-idea-design-1587109934qFg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 50vh;
+    color: white;
+    /* font-size: 1.15rem; */
+}
+
+.welcome {
+    height: 50%;
+    padding: 7% 2%;
+    background-image: linear-gradient(to bottom, #ffa931, #fff48f);
+}
+
+.rules {
+    height: 50%;
+    padding: 0 2%;
+    background-image: linear-gradient(to bottom, #fff48f, #ffa931);
+}
+
+.column2 {
+    display: flex;
+    width: 50vw;
+    /* background-image: url(https://live.staticflickr.com/2154/2503781972_8f5b8682fc_b.jpg); */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.column2>button {
+    background: #ffa931;
+    color: white;
+    border: solid #d92027 2px;
+    height: 15%;
+    width: 25%;
+    border-radius: 15px;
+    font-size: 1.15rem;
+    font-family: 'Ranchers', cursive;
+}
+
+.column2>button:hover {
+    background: #d92027;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.column3>p {
+    text-align: center;
+    color: white;
+    /* font-size: 2rem; */
+}
+
+.p1 {
+    height: 30%;
+    background-image: linear-gradient(to bottom, #ffa931, #fff48f);
+    padding-top: 7%;
+    font-size: 2rem;
+}
+
+#p2 {
+    height: 40%;
+    background: #fff48f;
+    padding-top: 3%;
+    font-size: 5rem;
+}
+
+.p3 {
+    height: 30%;
+    background-image: linear-gradient(to bottom, #fff48f, #ffa931);
+    padding-top: 7%;
+    font-size: 2rem;
+}
+
+.footer {
+    display: flex;
+    height: 25vh;
+    background-image: linear-gradient(to bottom, #d92026ab, #d92026ab), url(https://www.publicdomainpictures.net/pictures/330000/velka/racing-flags-background-checkered-flag-themes-idea-design-1587109934qFg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.75rem;
+    flex-direction: column;
+}
